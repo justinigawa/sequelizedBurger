@@ -20,19 +20,19 @@
 
 {{#if logged_in}}
     <div class="container">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <h2>Add a Burger</h2>
             <form class="create-update-form" action="burgers/create" method="POST">
 
                 <div class="form-group" id="add">
                     <label for="ca">Burger Name:</label>
-                    <input type="text" id="ca" name="name">
+                    <input type="text" id="ca" name="burger_name">
                 </div>
 
                 <button id="addB" type="submit">Add Burger</button>
             </form>
         </div>
-        <div class="col-md-6"></div>
+
     </div>
 
     <div class="container">
